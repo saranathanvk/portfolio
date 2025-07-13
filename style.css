@@ -1,1 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Saranathan P</a>
+            <ul class="nav-links">
+                <a href="index.html" class="active">index</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html">Skills</a>
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Saranathan</span></h1>
+                <h2>A <span class="typing-text"></span></h2>
+                <p>I create amazing digital experiences that help businesses grow and succeed in the online world.</p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn">Contact Me</a>
+
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="/img/images.jpeg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-image">
+                <img src="/img/about.jpeg" alt="About Me">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">About <span>Me</span></h2>
+                <h3>Professional Profile</h3>
+                <p>I’m an enthusiastic and creative Front-End Web Developer with a strong passion for designing
+                    engaging, responsive, and user-friendly websites. I specialize in turning ideas into visually
+                    appealing web interfaces using technologies like HTML, CSS, JavaScript, and modern frameworks like
+                    React.js.
+
+                    With a focus on clean code and intuitive design, I aim to build web experiences that are both
+                    functional and beautiful. I enjoy exploring new trends in UI/UX and continuously learning to improve
+                    my skill set. I’ve worked on several projects that reflect my ability to create attractive layouts,
+                    smooth animations, and responsive designs across all devices.
+
+                    Currently, I’m growing my expertise through hands-on projects, internships, and continuous learning.
+                    I take pride in being detail-oriented, adaptable, and dedicated to delivering quality work.</p>
+                <div class="about-details">
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress html"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress js"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress react"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Professional Skills</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Communication</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress communication"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Teamwork</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress teamwork"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Project Management</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress management"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Saranathan</h3>
+                    <p>Creating digital experiences that matter. Let's build something amazing together.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/saranathan_vk?igsh=MXF5dWxsZHIzdzB3Mw=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/sattu.saranathan"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Saranathan_vk?t=gzgvfV9rByZZSf0y-TKIyw&s=08"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/saranathan-pazhani-3a7110354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/saranathanvk"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul><a href="index.html">index</a><br>
+                    <a href="projects.html">Projects</a><br>
+                    <a href="skills.html">Skills</a><br>
+                   <a href="about.html">About</a><br>
+                   <a href="resume.html">Resume</a><br>
+                   <a href="services.html">Services</a><br>
+                    <a href="contact.html">Contact</a></ul>
+                    
+                    
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Dharmapuri, Tamil Nadu, Indai</li>
+                        <li><i class="fas fa-phone"></i> +91 8870933016</li>
+                        <li><i class="fas fa-envelope"></i> saranathan1814@gamil.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025@Saranathan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
