@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skills</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Background Elements -->
+    <div class="floating-elements">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="home.html" class="logo">MyPortfolio</a>
+            <ul class="nav-links">
+                  
+               <a href="home.html" >Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="skills.html" class="active">Skills</a>
+                <a href="about.html">About</a>
+                <a href="resume.html">Resume</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+                </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Skills Hero Section -->
+    <section class="skills-hero">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="section-title">My <span>Skills</span></h1>
+                <p>Here's a comprehensive overview of my technical and professional capabilities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Categories -->
+    <section class="skills-categories">
+        <div class="container">
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="technical">Technical Skills</button>
+                <button class="tab-btn" data-tab="professional">Professional Skills</button>
+                <button class="tab-btn" data-tab="tools">Tools & Technologies</button>
+            </div>
+
+            <!-- Technical Skills -->
+            <div class="tab-content active" id="technical">
+                <div class="skills-grid">
+                    <!-- Skill 1 -->
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML/CSS</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <p>Semantic HTML, CSS3, Flexbox, Grid, Animations, Responsive Design</p>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <p>ES6+, DOM Manipulation, Async Programming, APIs, Functional Programming</p>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <p>Components, Hooks, Context API, Redux, React Router, Performance Optimization</p>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon">
+                            <i class="fab fa-node-js"></i>
+                        </div>
+                        <h3>Node.js</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <p>Express, REST APIs, Authentication, Middleware, Error Handling</p>
+                    </div>
+
+                    <!-- Skill 5 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Databases</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 70%;"></div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                        <p>MongoDB, MySQL, PostgreSQL, ORMs, Schema Design, Indexing</p>
+                    </div>
+
+                    <!-- Skill 6 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h3>Git & Version Control</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <p>GitHub, GitLab, Branching Strategies, Code Reviews, CI/CD</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Professional Skills -->
+            <div class="tab-content" id="professional">
+                <div class="skills-grid">
+                    <!-- Skill 1 -->
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <h3>Communication</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%;"></div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <p>Clear articulation of ideas, active listening, professional writing, presentation skills</p>
+                    </div>
+
+                    <!-- Skill 2 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Teamwork</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 85%;"></div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <p>Collaboration, conflict resolution, adaptability, supporting team members</p>
+                    </div>
+
+                    <!-- Skill 3 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <h3>Project Management</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 75%;"></div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <p>Agile methodologies, task prioritization, deadline management, Scrum</p>
+                    </div>
+
+                    <!-- Skill 4 -->
+                    <div class="skill-card" data-aos="fade-up">
+                        <div class="skill-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Problem Solving</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 88%;"></div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                        <p>Analytical thinking, debugging, creative solutions, algorithm design</p>
+                    </div>
+
+                    <!-- Skill 5 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="skill-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Time Management</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 80%;"></div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <p>Task prioritization, productivity techniques, meeting deadlines, focus</p>
+                    </div>
+
+                    <!-- Skill 6 -->
+                    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="skill-icon">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <h3>Continuous Learning</h3>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%;"></div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <p>Self-education, staying updated, online courses, documentation reading</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="tab-content" id="tools">
+                <div class="tools-container">
+                    <div class="tool-category" data-aos="fade-up">
+                        <h3>Frontend Technologies</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-js"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-vuejs"></i>
+                                <span>Vue.js</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-sass"></i>
+                                <span>SASS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3>Backend Technologies</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-database"></i>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-server"></i>
+                                <span>Express</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-python"></i>
+                                <span>Python</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-fire"></i>
+                                <span>Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tool-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Other Tools</h3>
+                        <div class="tools-grid">
+                            <div class="tool-item">
+                                <i class="fab fa-git-alt"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-figma"></i>
+                                <span>Figma</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-npm"></i>
+                                <span>npm</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fas fa-terminal"></i>
+                                <span>CLI</span>
+                            </div>
+                            <div class="tool-item">
+                                <i class="fab fa-docker"></i>
+                                <span>Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Saranathan P</h3>
+                    <p>Creating digital experiences that matter. Let's build something amazing together.</p>
+                    <div class="social-links">
+                      <a href="https://www.instagram.com/saranathan_vk?igsh=MXF5dWxsZHIzdzB3Mw=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/sattu.saranathan"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/Saranathan_vk?t=gzgvfV9rByZZSf0y-TKIyw&s=08"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/saranathan-pazhani-3a7110354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/saranathanvk"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                   <ul><a href="home.html">Home</a><br>
+                    <a href="projects.html">Projects</a><br>
+                    <a href="skills.html">Skills</a><br>
+                   <a href="about.html">About</a><br>
+                   <a href="resume.html">Resume</a><br>
+                   <a href="services.html">Services</a><br>
+                    <a href="contact.html">Contact</a></ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                   <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Dharmapuri, Tamil Nadu, Indai</li>
+                        <li><i class="fas fa-phone"></i> +91 8870933016</li>
+                        <li><i class="fas fa-envelope"></i> saranathan1814@gamil.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025@Saranathan P. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
